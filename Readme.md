@@ -11,7 +11,7 @@ automatically indent when one presses return.
 Because I needed this functionality for a project I'm writing. I faced several challenges:
 
 1. I had been calling insertText: to perform programmatic changes, and although this appeared to 
-   work, I would troubled by some verbiage in NSTextView's documentation for insertText:
+   work, I was troubled by some verbiage in NSTextView's documentation for `insertText:`
    > This method is the entry point for inserting text typed by the user and is generally 
    > not suitable for other purposes. Programmatic modification of the text is best done 
    > by operating on the text storage directly.
@@ -32,10 +32,11 @@ of its contents using insertText: and without screwing up Undo.
 
 ### How's it work? ###
 
-ZPTextView is an NSTextView subclass. It overrides `insertText:`, and does it's modification of 
-its contents there. Additionally, it does its own undo grouping in insertText:, basicallly by
-creating an undo group for each insertText: call. Additionally, it overrides 
-`replaceCharactersInRange:` to also call `shouldChangeTextInRange:`, also to keep undo working properly.
+`ZPTextView` is an `NSTextView` subclass. It overrides `insertText:`, and does it's modification of
+its contents there. Additionally, it does its own undo grouping in `insertText:`, basicallly by
+creating an undo group for each `insertText:` call. Additionally, it overrides
+`replaceCharactersInRange:` to also call `shouldChangeTextInRange:`, also to keep undo working 
+properly.
 
 Note that this is code in progress. It's basically a cut-down version of code I'm using in a project
 I'm working on, and I've not actually shipped it (yet). So far, however, it appears to work well.
