@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A221FD0D17515795009C7167 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A221FD0C17515795009C7167 /* Cocoa.framework */; };
+		A221FD1717515795009C7167 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A221FD1517515795009C7167 /* InfoPlist.strings */; };
+		A221FD1917515795009C7167 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD1817515795009C7167 /* main.m */; };
+		A221FD1D17515795009C7167 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A221FD1B17515795009C7167 /* Credits.rtf */; };
+		A221FD2017515795009C7167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD1F17515795009C7167 /* AppDelegate.m */; };
+		A221FD2317515795009C7167 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A221FD2117515795009C7167 /* MainMenu.xib */; };
+		A221FD2E17515849009C7167 /* ZPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD2D17515849009C7167 /* ZPTextView.m */; };
+		A221FD3117515ABE009C7167 /* NSString+Trimming.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD3017515ABE009C7167 /* NSString+Trimming.m */; };
+		A221FD3317515EBC009C7167 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A221FD3217515EBC009C7167 /* Readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A221FD0917515795009C7167 /* CustomTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A221FD0C17515795009C7167 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A221FD0F17515795009C7167 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A221FD1017515795009C7167 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A221FD1117515795009C7167 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A221FD1417515795009C7167 /* CustomTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTextView-Info.plist"; sourceTree = "<group>"; };
+		A221FD1617515795009C7167 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A221FD1817515795009C7167 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A221FD1A17515795009C7167 /* CustomTextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTextView-Prefix.pch"; sourceTree = "<group>"; };
+		A221FD1C17515795009C7167 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A221FD1E17515795009C7167 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A221FD1F17515795009C7167 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A221FD2217515795009C7167 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A221FD2C17515849009C7167 /* ZPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPTextView.h; sourceTree = "<group>"; };
+		A221FD2D17515849009C7167 /* ZPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPTextView.m; sourceTree = "<group>"; };
+		A221FD2F17515ABE009C7167 /* NSString+Trimming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trimming.h"; sourceTree = "<group>"; };
+		A221FD3017515ABE009C7167 /* NSString+Trimming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trimming.m"; sourceTree = "<group>"; };
+		A221FD3217515EBC009C7167 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A221FD0617515795009C7167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221FD0D17515795009C7167 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A221FD0017515795009C7167 = {
+			isa = PBXGroup;
+			children = (
+				A221FD1217515795009C7167 /* CustomTextView */,
+				A221FD0B17515795009C7167 /* Frameworks */,
+				A221FD0A17515795009C7167 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A221FD0A17515795009C7167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A221FD0917515795009C7167 /* CustomTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A221FD0B17515795009C7167 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A221FD0C17515795009C7167 /* Cocoa.framework */,
+				A221FD0E17515795009C7167 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A221FD0E17515795009C7167 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A221FD0F17515795009C7167 /* AppKit.framework */,
+				A221FD1017515795009C7167 /* CoreData.framework */,
+				A221FD1117515795009C7167 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A221FD1217515795009C7167 /* CustomTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A221FD3217515EBC009C7167 /* Readme.md */,
+				A221FD2C17515849009C7167 /* ZPTextView.h */,
+				A221FD2D17515849009C7167 /* ZPTextView.m */,
+				A221FD2F17515ABE009C7167 /* NSString+Trimming.h */,
+				A221FD3017515ABE009C7167 /* NSString+Trimming.m */,
+				A221FD1E17515795009C7167 /* AppDelegate.h */,
+				A221FD1F17515795009C7167 /* AppDelegate.m */,
+				A221FD2117515795009C7167 /* MainMenu.xib */,
+				A221FD1317515795009C7167 /* Supporting Files */,
+			);
+			path = CustomTextView;
+			sourceTree = "<group>";
+		};
+		A221FD1317515795009C7167 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A221FD1417515795009C7167 /* CustomTextView-Info.plist */,
+				A221FD1517515795009C7167 /* InfoPlist.strings */,
+				A221FD1817515795009C7167 /* main.m */,
+				A221FD1A17515795009C7167 /* CustomTextView-Prefix.pch */,
+				A221FD1B17515795009C7167 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A221FD0817515795009C7167 /* CustomTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A221FD2617515795009C7167 /* Build configuration list for PBXNativeTarget "CustomTextView" */;
+			buildPhases = (
+				A221FD0517515795009C7167 /* Sources */,
+				A221FD0617515795009C7167 /* Frameworks */,
+				A221FD0717515795009C7167 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTextView;
+			productName = CustomTextView;
+			productReference = A221FD0917515795009C7167 /* CustomTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A221FD0117515795009C7167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fat Apps, LLC.";
+			};
+			buildConfigurationList = A221FD0417515795009C7167 /* Build configuration list for PBXProject "CustomTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A221FD0017515795009C7167;
+			productRefGroup = A221FD0A17515795009C7167 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A221FD0817515795009C7167 /* CustomTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A221FD0717515795009C7167 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221FD1717515795009C7167 /* InfoPlist.strings in Resources */,
+				A221FD1D17515795009C7167 /* Credits.rtf in Resources */,
+				A221FD2317515795009C7167 /* MainMenu.xib in Resources */,
+				A221FD3317515EBC009C7167 /* Readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A221FD0517515795009C7167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A221FD1917515795009C7167 /* main.m in Sources */,
+				A221FD2017515795009C7167 /* AppDelegate.m in Sources */,
+				A221FD2E17515849009C7167 /* ZPTextView.m in Sources */,
+				A221FD3117515ABE009C7167 /* NSString+Trimming.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A221FD1517515795009C7167 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A221FD1617515795009C7167 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A221FD1B17515795009C7167 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A221FD1C17515795009C7167 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A221FD2117515795009C7167 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A221FD2217515795009C7167 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A221FD2417515795009C7167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A221FD2517515795009C7167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A221FD2717515795009C7167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTextView/CustomTextView-Prefix.pch";
+				INFOPLIST_FILE = "CustomTextView/CustomTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A221FD2817515795009C7167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTextView/CustomTextView-Prefix.pch";
+				INFOPLIST_FILE = "CustomTextView/CustomTextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A221FD0417515795009C7167 /* Build configuration list for PBXProject "CustomTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221FD2417515795009C7167 /* Debug */,
+				A221FD2517515795009C7167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A221FD2617515795009C7167 /* Build configuration list for PBXNativeTarget "CustomTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A221FD2717515795009C7167 /* Debug */,
+				A221FD2817515795009C7167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A221FD0117515795009C7167 /* Project object */;
+}
