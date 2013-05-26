@@ -10,8 +10,8 @@ automatically indent when one presses return.
 
 Because I needed this functionality for a project I'm writing. I faced several challenges:
 
-1. I had been calling insertText: to perform programmatic changes, and although this appeared to 
-   work, I was troubled by some verbiage in NSTextView's documentation for `insertText:`
+1. I had been calling `insertText:` to perform programmatic changes, and although this appeared to
+   work, I was troubled by some verbiage in `NSTextView`'s documentation for `insertText:`
    > This method is the entry point for inserting text typed by the user and is generally 
    > not suitable for other purposes. Programmatic modification of the text is best done 
    > by operating on the text storage directly.
@@ -26,8 +26,8 @@ Because I needed this functionality for a project I'm writing. I faced several c
    by [this question](http://stackoverflow.com/questions/5585944/cocoa-looking-for-a-general-strategy-for-programmatic-manipulation-of-nstextvie) on stackoverflow.
    
 
-So the point of this is to demonstrate an NSTextView subclass which does programmatic modification
-of its contents using insertText: and without screwing up Undo.
+So the point of this is to demonstrate an `NSTextView` subclass which does programmatic modification
+of its contents using `insertText:` and without screwing up Undo.
 
 
 ### How's it work? ###

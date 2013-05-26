@@ -189,7 +189,7 @@
 		}
 	}
 	else if( character == NSNewlineCharacter || character == NSCarriageReturnCharacter || character == NSTabCharacter ) {
-		// If we're in a list, insert the return, and then do more list stuff.
+		// Do code formatting stuff.
 		return [self handleCodeFormatting:character];
 	}
 	
