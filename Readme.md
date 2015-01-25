@@ -54,3 +54,6 @@ or [App.net](https://alpha.app.net/zpasternack).
 You bet. Do whatever you want with it. If you find issues, please let me know. If you make it
 better, please let me know.
 
+### License ###
+
+The code is available under a Modified BSD License. See the LICENSE file for more info.

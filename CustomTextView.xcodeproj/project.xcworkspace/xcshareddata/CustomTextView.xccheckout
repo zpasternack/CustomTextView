@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC598AE2-CAC6-4898-98B4-D61AE8DCCFFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomTextView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D768F6B997F6C379ECCC689157D76B426682FCBF</key>
+		<string>https://github.com/zpasternack/CustomTextView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomTextView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D768F6B997F6C379ECCC689157D76B426682FCBF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zpasternack/CustomTextView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D768F6B997F6C379ECCC689157D76B426682FCBF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D768F6B997F6C379ECCC689157D76B426682FCBF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomTextView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

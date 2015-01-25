@@ -16,6 +16,7 @@
 		A221FD2E17515849009C7167 /* ZPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD2D17515849009C7167 /* ZPTextView.m */; };
 		A221FD3117515ABE009C7167 /* NSString+Trimming.m in Sources */ = {isa = PBXBuildFile; fileRef = A221FD3017515ABE009C7167 /* NSString+Trimming.m */; };
 		A221FD3317515EBC009C7167 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = A221FD3217515EBC009C7167 /* Readme.md */; };
+		A2927B6C1A758B87008307E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A2927B6B1A758B87008307E5 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A221FD2F17515ABE009C7167 /* NSString+Trimming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trimming.h"; sourceTree = "<group>"; };
 		A221FD3017515ABE009C7167 /* NSString+Trimming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trimming.m"; sourceTree = "<group>"; };
 		A221FD3217515EBC009C7167 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		A2927B6B1A758B87008307E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				A221FD3017515ABE009C7167 /* NSString+Trimming.m */,
 				A221FD1E17515795009C7167 /* AppDelegate.h */,
 				A221FD1F17515795009C7167 /* AppDelegate.m */,
+				A2927B6B1A758B87008307E5 /* LICENSE */,
 				A221FD2117515795009C7167 /* MainMenu.xib */,
 				A221FD1317515795009C7167 /* Supporting Files */,
 			);
@@ -170,6 +173,7 @@
 				A221FD1D17515795009C7167 /* Credits.rtf in Resources */,
 				A221FD2317515795009C7167 /* MainMenu.xib in Resources */,
 				A221FD3317515EBC009C7167 /* Readme.md in Resources */,
+				A2927B6C1A758B87008307E5 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 				A221FD2817515795009C7167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
